@@ -8,7 +8,10 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-
+          <Route path="/" element={<Home />} />
+          <Route path="/shirt" element={<Shirt />} />
+          <Route path="/sticker" element={<Sticker />} />
+          <Route path="/Poster" element={<Poster />} />
         </Routes>
         <Footer />
       </Router>
