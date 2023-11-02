@@ -1,5 +1,9 @@
 import './App.css';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import Home from './Pages/Home';
+import Sticker from './Pages/Sticker';
+import Poster from './Pages/Poster';
+import Shirt from './Pages/Shirt';
 
 
 function App() {
@@ -11,7 +15,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/shirt" element={<Shirt />} />
           <Route path="/sticker" element={<Sticker />} />
-          <Route path="/Poster" element={<Poster />} />
+          <Route path="/poster" element={<Poster />} />
         </Routes>
         <Footer />
       </Router>
