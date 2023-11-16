@@ -1,8 +1,16 @@
 import React from 'react'
+import { StickerList } from '../Component/StickerList'
 
 function Sticker() {
   return (
-    <div>Sticker</div>
+    <div>
+      <h1>Cool Stickers</h1>
+      <div>
+        {StickerList.map((ShopSticker) => {
+          
+        })}
+      </div>
+    </div>
   )
 }
 
