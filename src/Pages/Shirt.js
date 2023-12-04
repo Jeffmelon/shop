@@ -1,6 +1,7 @@
 import React from 'react'
 import ShirtDisplay from '../Display/ShirtDisplay'
 import { ShirtList } from '../Component/ShirtList'
+import "../Style/Sticker.css"
 
 function Shirt() {
   return (
