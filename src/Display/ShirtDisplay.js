@@ -1,6 +1,6 @@
 import React from 'react'
 
-function StickerDisplay({img, name, link, price}) {
+function ShirtDisplay({img, name, link, price}) {
     return (
         <div onClick={() => window.open(link, "_blank")}>
             <div style={{ backgroundImage: {img}}}/>
@@ -10,4 +10,4 @@ function StickerDisplay({img, name, link, price}) {
     )
 }
 
-export default StickerDisplay
+export default ShirtDisplay
