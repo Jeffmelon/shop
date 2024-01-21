@@ -30,8 +30,8 @@ export const PosterList = [
         price: "$24.04"
     },
     {
-        Image: FW,
-        name: "Fall Walk",
+        Image: WB,
+        name: "Witchy Buisness",
         link: "https://www.redbubble.com/i/art-print/Witchy-Business-by-Fall-Lover/154369962.1G4ZT",
         price: "$24.04"
     },
