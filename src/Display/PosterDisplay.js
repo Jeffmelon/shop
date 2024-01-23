@@ -5,7 +5,7 @@ function PosterDisplay({img, name, link, price}) {
     <div className='shopItem' onClick={() => window.open(link, "_blank")}>
             <div style={{ backgroundImage: `url(${img})` }} className='bgImage'/>
             <h1>{name}</h1>
-            <p>{price}</p>
+            <h1>{price}</h1>
         </div>
   )
 }
